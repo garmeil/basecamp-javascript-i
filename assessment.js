@@ -111,5 +111,5 @@ var plusThree = numbers.map(num=> num+=3)// CODE HERE
 // #15 using the 'goodPeople' array of objects, add a new key value pair of 'family: true' to each object. Hint: use forEach
 var goodPeople = [{name: 'George'}, {name: 'Randi'}, {name: 'Lindsey'}]
 
-goodPeople.forEach((val, i)=> goodPeople[i].Family = true)
-goodPeople// CODE HERE
+goodPeople.forEach((val, i)=> goodPeople[i].family = true)
+// CODE HERE
